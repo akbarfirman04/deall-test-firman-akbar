@@ -1,10 +1,10 @@
 'use client';
 
 import React from 'react';
-import Cart from '@/components/cart';
+import Cart from '../cart';
 import { NextUIProvider } from '@nextui-org/react';
-import Navbar from '@/components/sidebarMobile';
-import Sidebar from '@/components/sidebar';
+import Navbar from '../sidebarMobile';
+import Sidebar from '../sidebar';
 
 export default function Home() {
   return (

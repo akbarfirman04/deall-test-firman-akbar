@@ -1,9 +1,9 @@
 'use client';
 import React, { useEffect, useState } from 'react';
 import { NextUIProvider, Card } from '@nextui-org/react';
-import Sidebar from '@/components/sidebar';
-import ProductTable from '@/components/productTable';
-import Navbar from '@/components/sidebarMobile';
+import Sidebar from '../../sidebar';
+import ProductTable from '../../productTable';
+import Navbar from '../../sidebarMobile';
 
 export default function CartPage({ params }) {
   const [carts, setCarts] = useState(null);
