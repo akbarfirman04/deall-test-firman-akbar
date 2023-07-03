@@ -67,7 +67,7 @@ export default function CartPage({ params }) {
       <div className="flex h-screen w-full">
         <Sidebar />
         <Navbar />
-        <div className="mt-[110px] md:mt-0 w-full sm:w-5/6 bg-white p-4">
+        <div className="z-0 md:ml-[16.6vw] mt-[110px] md:mt-0 w-full sm:w-5/6 bg-white p-4">
           <h2>
             Cart {params.id}
           </h2>

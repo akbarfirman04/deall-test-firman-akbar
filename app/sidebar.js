@@ -7,7 +7,7 @@ import { usePathname } from 'next/navigation';
 export default function Sidebar() {
   const router = usePathname();
   return (
-    <div className="hidden md:inline bg-gray-800 text-white w-1/6">
+    <div className="hidden flex-auto md:inline bg-gray-800 text-white w-1/6 h-screen fixed left-0 top-0">
       <div className="p-4" />
 
       <nav className="mt-6">
